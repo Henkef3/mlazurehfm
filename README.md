@@ -30,19 +30,25 @@ best model.
 ### **The dataset**
 
 The dataset got the following features:
+
 *Basic information*
+
 Age,Job,Martial,Education,Default(got credit),Housing,Loan
 
 *Last time contacted* 
+
 Contact(type of communicating device),Month,Dayofweek,Duration
 ¨
 *Campaign specific information*
+
 Campaign(number of contacts performed under this campaign),Pdays(days since last contact),Previous(number of contacts before campaign),Poutcome(number of previous campaign contacts)
 
 *social and economic information*
+
 Emp.var.rate(employment variation rate),Cons.price.idx(consumer price index),Cons.conf.idx(consumer confidence index),Euribor3m(euriboe 3 month rate),Nr.employed(number of employees)
 
 *Output and target feature*
+
 y(has the client subscribed a term deposit?)
 
 ### **Data cleaning**
