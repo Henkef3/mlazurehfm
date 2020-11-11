@@ -22,12 +22,12 @@ where the user is either a potential subsriber or not. As such a classification 
 best model.
 
 
-###**Architecture**
+### **Architecture**
 
 ![Architecture](HdArchitecture.PNG)
 
 
-###**The dataset**
+### **The dataset**
 
 The dataset got the following features:
 *Basic information*
@@ -45,7 +45,7 @@ Emp.var.rate(employment variation rate),Cons.price.idx(consumer price index),Con
 *Output and target feature*
 y(has the client subscribed a term deposit?)
 
-###**Data cleaning**
+### **Data cleaning**
 
 The dataset is prepared in the training script by a cleaning script. The following features are scrubbed:
 
@@ -54,7 +54,7 @@ Job,Contact,Education.
 The following categorial data is hot encoded:
 Martial,Default,Housing,Loan,Month,Dayofweek,poutcome,y
 
-###**Hyper parameter tuning**
+### **Hyper parameter tuning**
 
 The following hyperparamters are tuned in the Hyperdrive pipeline:
 "--C" From 0 to 1  - regularization parameter. A smaller value represent a stronger regularization.   
