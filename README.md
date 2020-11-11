@@ -104,3 +104,16 @@ algorithms and hpyerparameter configurations. It then weights these against each
 **What are some areas of improvement for future experiments? Why might these improvements help the model?**
 We can run a more refined search for the hyperdrive with another parameter sampler. The hyperdrive pipeline could also increase its maximum amount of runs and include more hyperparameters.
 For the AutoML run there is the possibility to increase the amount of n cross validations or try another priamry metric to decide a better model.
+
+
+## Screenshots
+
+![HyperDriveRun](HyperDriveRun.PNG)
+
+![HypderDriveBestRun](HypderDriveBestRun.PNG)
+
+![ComputeCluster](ComputeCluster.PNG)
+
+![DeleteComputeSuccess](DeleteComputeSuccess.PNG)
+
+![DeleteComputeSuccessProof](DeleteComputeSuccessProof.PNG)
